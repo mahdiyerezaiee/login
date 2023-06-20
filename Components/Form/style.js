@@ -36,23 +36,17 @@ export const styles = StyleSheet.create({
 
     },
     inputName: {
-
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 5 },
-        shadowOpacity: 0.14,
-        shadowRadius: 9,
-        elevation: 2,
         backgroundColor: '#e8f0fe',
-        borderRadius: "5%",
-        borderTopWidth: '1%',
-        borderRightWidth: '1%',
-        borderLeftWidth: '1%',
+        borderRadius: 5,
+        borderTopWidth: 1,
+        borderRightWidth: 2,
+        borderLeftWidth: 2,
         borderColor: '#8caeb2',
         width: '100%',
         padding: 30,
-        borderBottomLeftRadius: '0',
-        borderBottomRightRadius: '0',
-        height:'20%'
+        borderBottomLeftRadius: 0,
+        borderBottomRightRadius: 0,
+        height:20
 
     },
     inputPass: {
@@ -68,8 +62,7 @@ export const styles = StyleSheet.create({
         width: '100%',
         padding: 30,
         height: 20,
-        position: 'relative',
-        top: '10%',
+
 
     },
 
@@ -89,7 +82,7 @@ export const styles = StyleSheet.create({
     },
     button:{
         width:"100%",
-        marginTop:30,
+        marginTop:20,
         paddingTop:20,
         paddingBottom:20,
         backgroundColor:'linear-gradient(90deg, rgba(24, 158, 36, 1) 100%, rgba(66, 180, 30, 1) 35%, rgba(152, 226, 19, 1) 0%);',

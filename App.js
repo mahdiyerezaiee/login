@@ -1,4 +1,4 @@
-import {ScrollView, StyleSheet, Text, View} from 'react-native';
+import {FlatList, ScrollView, StyleSheet, Text, View} from 'react-native';
 import Index from "./Components/Home";
 
 export default function App() {
@@ -15,5 +15,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#edf0f5',
     alignItems: 'center',
     justifyContent: 'center',
+    width:"100%"
   },
 });

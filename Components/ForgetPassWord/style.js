@@ -7,16 +7,14 @@ export const styles = StyleSheet.create({
         borderColor: 'transparent'
     },
     container: {
-       marginTop: -250,
 
-        flex: 1,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
         paddingHorizontal: 45,
+        marginTop:-10
     },
     textContainer: {
-        flex: 1,
         marginLeft: 20,
 
     },

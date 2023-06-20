@@ -4,9 +4,12 @@ import {styles} from "./style";
 import {CheckBox} from "react-native-elements";
 
 const ForgetPassWord = () => {
+
     const [isChecked , setIsChecked] = useState(false)
+
     const handleCheckboxChange = () => {
         setIsChecked(!isChecked);
+
     };
     return (
 
